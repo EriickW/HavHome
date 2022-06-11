@@ -1,0 +1,16 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+:root{
+    --color-nav:#29292C;
+    --color-body:#16161E;
+    font-size: 62.5%;
+}
+body{
+    background: var(--color-body);
+    
+}
+@import "nav";
