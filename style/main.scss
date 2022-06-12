@@ -7,10 +7,21 @@
 :root{
     --color-nav:#29292C;
     --color-body:#16161E;
+    --destaque:#FA4A55;
+    --gray-text:#E6E6E6;
     font-size: 62.5%;
 }
 body{
     background: var(--color-body);
-    
+    font-family: 'Inter', sans-serif;
+}
+.alinhamento{
+        max-width: 100%;
+        height: 100%;
+        padding:0 2%;
+        width: 110rem;
+        margin-inline: auto;
 }
 @import "nav";
+@import "header";
+@import "mainContainer"

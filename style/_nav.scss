@@ -1,22 +1,40 @@
 nav{
-   
+    font-family: 'Montserrat', sans-serif;
     height: 9.4rem;
     background: var(--color-nav);
     .container-nav{
-        max-width: 100%;
-        height: 100%;
-        width: 110rem;
-        margin-inline:auto;
         display: flex;
         align-items: center;
         justify-content: space-between;
+       h3{
+        color:white;
+        font-size: 1.8rem;
+       }
         ul{
             display: flex;
             list-style: none; 
+            gap:2.4rem;
+            
             a{
                 text-decoration: none;
                 cursor: pointer;
+                color: #FFFFFF;
+                font-size: 1.4rem;
             }
+            .active{
+                color: var(--destaque);
+                
+            }
+        }
+        button{
+            font-family: 'Montserrat', sans-serif;
+            width: 129px;
+            height: 46px;
+            background: #FA4A55;
+            border:none;
+            border-radius: 0.5rem;
+            color:white;
         }
     }
 }
+//
