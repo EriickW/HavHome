@@ -4,7 +4,7 @@ main{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    height: 18.7rem;
+    min-height: 18.7rem;
     width: 100%;
     gap: 3.2rem;
     .box{
@@ -32,20 +32,21 @@ main{
 
    }
     .container-logo{
-        margin-top: 8rem;
-        width: 1054px;
-        min-height: 175px;
+        margin-top: 2rem;
+        max-width: 106.4rem;
+        min-height:23.5rem;
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-wrap: wrap;
-        .logo{
+        gap: 2.5rem;
 
+        flex-wrap: wrap;
+        .logo img{
             display: flex;
-            
-            justify-content: space-between;
+            justify-content: center;
             align-items: center;
-            gap: 3rem;
+            flex-wrap: wrap;
+            
         }
         
         

@@ -6,6 +6,7 @@ nav{
         display: flex;
         align-items: center;
         justify-content: space-between;
+        flex-wrap: wrap;
        h3{
         color:white;
         font-size: 1.8rem;
@@ -28,8 +29,8 @@ nav{
         }
         button{
             font-family: 'Montserrat', sans-serif;
-            width: 129px;
-            height: 46px;
+            width: 12.9rem;
+            height: 4.6rem;
             background: #FA4A55;
             border:none;
             border-radius: 0.5rem;
