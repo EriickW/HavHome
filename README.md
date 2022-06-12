@@ -10,7 +10,7 @@
 <br>
 
 - [Link do meu perfil](https://github.com/EriickW)
-- [Link do site ao vivo]()
+- [Link do site ao vivo](https://eriickw.github.io/HavHome/)
 - [Minhas redes sociais](https://eriickw.github.io/linktree-main/)
 
 ## Screenshots
